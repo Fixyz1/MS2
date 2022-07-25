@@ -338,6 +338,7 @@ UITOGGLERFrame.Parent = ScreenGui
 UITOGGLERFrame.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
 UITOGGLERFrame.Position = UDim2.new(0.504071712, 0, 0.0417827293, 0)
 UITOGGLERFrame.Size = UDim2.new(0, 80, 0, 53)
+UITOGGLERFrame.Visible = false
 UITOGGLERFrame.Active = true
 UITOGGLERFrame.Draggable = true
 
