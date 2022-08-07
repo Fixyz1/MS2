@@ -1,5 +1,5 @@
--- Hacked!
 
+local ScreenGui = Instance.new("ScreenGui")
 local MiningSimulator2Frame = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
 local Zeerox = Instance.new("TextButton")
@@ -19,13 +19,13 @@ local UICorner_8 = Instance.new("UICorner")
 
 --Properties:
 
+ScreenGui.Parent = game.CoreGui
+
 MiningSimulator2Frame.Name = "Mining Simulator 2 Frame"
-MiningSimulator2Frame.Parent = game.Workspace
+MiningSimulator2Frame.Parent = ScreenGui
 MiningSimulator2Frame.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
 MiningSimulator2Frame.Position = UDim2.new(0.035830617, 0, 0.0236768983, 0)
 MiningSimulator2Frame.Size = UDim2.new(0, 154, 0, 217)
-MiningSimulator2Frame.Active = true
-MiningSimulator2Frame.Draggable = true
 
 UICorner.Parent = MiningSimulator2Frame
 
